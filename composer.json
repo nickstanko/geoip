@@ -1,0 +1,31 @@
+{
+    "name": "threetwentynine/geoip-plugin",
+    "type": "streams-addon",
+    "description": "A simple plugin for returning IP location information.",
+    "keywords": [
+        "streams plugin",
+        "streams addon",
+        "plugin"
+    ],
+    "homepage": "http://3twenty9.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "3twenty9 Design, LLC.",
+            "email": "support@3twenty9.com",
+            "homepage": "http://3twenty9.com/",
+            "role": "Owner"
+        }
+    ],
+    "support": {
+        "email": "support@3twenty9.com"
+    },
+    "require": {
+        "torann/geoip": "1.0.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Threetwentynine\\GeoipPlugin\\": "src/"
+        }
+    }
+}
